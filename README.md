@@ -96,7 +96,7 @@ params:
  - path to output readable wikipedia
 i.e:
 
-`java -Xmx10G -Xms10G -cp org.idio.wikipedia.dumps.ReadableWiki wiki2vec-assembly-1.0.jar path-to-wiki-dump/eswiki-20150105-pages-articles-multistream.xml.bz2 pathTo/output/ReadableWikipedia`
+`java -Xmx10G -Xms10G -cp  wiki2vec-assembly-1.0.jar org.idio.wikipedia.dumps.ReadableWiki path-to-wiki-dump/eswiki-20150105-pages-articles-multistream.xml.bz2 pathTo/output/ReadableWikipedia`
 
 
 ### Word2Vec Corpus
